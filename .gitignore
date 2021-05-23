@@ -1,2 +1,5 @@
 *.zip
 valheim_Data/
+BepinEx/config/PrefabExports
+BepinEx/plugins/*.txt
+BepinEx/cache/

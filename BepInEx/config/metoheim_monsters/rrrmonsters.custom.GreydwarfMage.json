@@ -28,7 +28,7 @@
        "bToleratesWater" : true,
        "bToleratesFire" : false,
        "bToleratesSmoke" : true,
-       "fHealth" : 30,
+       "fHealth" : 60,
        "dDamageTaken" : {
           "m_blunt" : "Normal",
           "m_slash" : "Normal",
@@ -50,7 +50,7 @@
           "fPierce" : 0,
           "fChop" : 0,
           "fPickaxe" : 0,
-          "fFire" : 30,
+          "fFire" : 25,
           "fFrost" : 0,
           "fLightning" : 0,
           "fPoison" : 0,

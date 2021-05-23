@@ -1,0 +1,9 @@
+Meadows:1100
+BlackForest:1200
+Swamp:1300
+Mountains:1400
+Plains:1500
+Oceans:1600
+Mistlands:1700
+Ashlands:1800
+DeepNorth:1900
