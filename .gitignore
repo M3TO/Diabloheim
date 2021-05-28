@@ -9,3 +9,13 @@ start_game_bepinex.sh
 start_server_bepinex.sh
 UnityCrashHandler64.exe
 UnityPlayer.dll
+BepInEx/plugins/SkToolboxValheim.dll
+BepInEx/plugins/MMHOOK/MMHOOK_assembly_googleanalytics.dll
+BepInEx/plugins/MMHOOK/MMHOOK_assembly_guiutils.dll
+BepInEx/plugins/MMHOOK/MMHOOK_assembly_lux.dll
+BepInEx/plugins/MMHOOK/MMHOOK_assembly_postprocessing.dll
+BepInEx/plugins/MMHOOK/MMHOOK_assembly_simplemeshcombine.dll
+BepInEx/plugins/MMHOOK/MMHOOK_assembly_steamworks.dll
+BepInEx/plugins/MMHOOK/MMHOOK_assembly_sunshafts.dll
+BepInEx/plugins/MMHOOK/MMHOOK_assembly_utils.dll
+BepInEx/plugins/MMHOOK/MMHOOK_assembly_valheim.dll
