@@ -3,7 +3,7 @@
     "GreatswordAnimationSpeedAdjust": 1.2,
     "ThrowingAxeAnimationSpeedAdjust": 3,
     "FlametalWeaponSpecialDurabilityDrain": 10,
-    "FlametalWeaponsSpecialEffectsEnabled": true,
+    "FlametalWeaponsSpecialEffectsEnabled": false,
     "AtgeirSilver": {
         "enabled": true,
         "station": "forge",
@@ -42,7 +42,7 @@
         ]
     },
     "AtgeirFire": {
-        "enabled": false,
+        "enabled": true,
         "effectVal": 0.10,
         "station": "forge",
         "amountCrafted": 1,
@@ -194,7 +194,7 @@
         ]
     },
     "AxeFire": {
-        "enabled": false,
+        "enabled": true,
         "effectVal": 0.50,
         "station": "forge",
         "amountCrafted": 1,
@@ -341,7 +341,7 @@
         ]
     },
     "BattleaxeFire": {
-        "enabled": false,
+        "enabled": true,
         "effectVal": 15,
         "station": "forge",
         "amountCrafted": 1,
@@ -407,7 +407,7 @@
         ]
     },
     "BowFire": {
-        "enabled": false,
+        "enabled": true,
         "effectVal": 45,
         "station": "forge",
         "amountCrafted": 1,
@@ -608,7 +608,7 @@
         ]
     },
     "KnifeFire": {
-        "enabled": false,
+        "enabled": true,
         "effectVal": 2.0,
         "effectDur": 1,
         "effectThreshold": 1,
@@ -736,7 +736,7 @@
         ]
     },
     "SpearFire": {
-        "enabled": false,
+        "enabled": true,
         "effectVal": 20,
         "station": "forge",
         "amountCrafted": 1,
@@ -774,7 +774,7 @@
         ]
     },
     "SledgeFire": {
-        "enabled": false,
+        "enabled": true,
         "effectVal": 20,
         "station": "forge",
         "amountCrafted": 1,
@@ -812,7 +812,7 @@
         ]
     },
     "SwordFire": {
-        "enabled": false,
+        "enabled": true,
         "effectVal": 60,
         "station": "forge",
         "amountCrafted": 1,
@@ -1039,7 +1039,7 @@
         "enabled": false
     },
     "MaceFire": {
-        "enabled": false,
+        "enabled": true,
         "effectVal": 8,
         "cooldownVal": 17,
         "station": "forge",

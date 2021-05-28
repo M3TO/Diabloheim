@@ -1,0 +1,12 @@
+groups:
+  Swamp:
+    - Skeleton
+    - Draugr
+    - Draugr_Elite
+    - Blob
+    - BlobElite
+    - Leech
+    - Wraith
+    - RRRM_DraugrDeathlord
+    - RRRM_CursedShambler
+    - RRRN_SkogarmaorShadow

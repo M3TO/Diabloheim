@@ -39,8 +39,14 @@
       "Type" : "ModifyDamage",
       "DisplayText" : "$mod_epicloot_me_modifydamage_display",
       "Description" : "$mod_epicloot_me_modifydamage_desc",
-      //"CanBeAugmented": false, 
       "Requirements" : {
+        "AllowedItemTypes" : [
+          "OneHandedWeapon",
+          "TwoHandedWeapon",
+          "Bow",
+          "Torch",
+          "Shield"
+        ],
         "ExclusiveEffectTypes": [
           "ModifyPhysicalDamage",
           "ModifyElementalDamage"
@@ -50,9 +56,12 @@
         ]
       },
       "ValuesPerRarity" : {
-        "Legendary" : { "MinValue" : 35, "MaxValue" : 50, "Increment" : 1 }
+        //"Magic" : { "MinValue" : 5, "MaxValue" : 15, "Increment" : 1 },
+        "Rare" : { "MinValue" : 18, "MaxValue" : 25, "Increment" : 1 },
+        "Epic" : { "MinValue" : 28, "MaxValue" : 35, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 38, "MaxValue" : 50, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 5,
        "Prefixes": [ "Almighty", "Colossal", "Godly", "Heroic", "Majestic", "Grand", "Imposing", "Indomitable" ],
        "Suffixes": [ "the Gods", "Odin", "Tyr", "Thor", "Heimdall", "Loki", "Freyja", "Njord", "Aesir", "Vanir" ],
        "Comment" : "Can't be rolled. Too powerful?"
@@ -62,6 +71,7 @@
       "DisplayText" : "$mod_epicloot_me_modifyphysicaldamage_display",
       "Description" : "$mod_epicloot_me_modifyphysicaldamage_desc",
       "Requirements" : {
+        "NoRoll": true,
         "AllowedItemTypes" : [
           "OneHandedWeapon",
           "TwoHandedWeapon",
@@ -74,19 +84,18 @@
         ],
         "ItemHasPhysicalDamage": true,
         "AllowedRarities": [
-          "Magic",
           "Rare",
           "Epic",
           "Legendary"
         ]
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 5, "MaxValue" : 15, "Increment" : 1 },
+        //"Magic" : { "MinValue" : 5, "MaxValue" : 15, "Increment" : 1 },
         "Rare" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 1 },
         "Epic" : { "MinValue" : 25, "MaxValue" : 35, "Increment" : 1 },
         "Legendary" : { "MinValue" : 35, "MaxValue" : 50, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 5,
       "Prefixes": [
         "$mod_epicloot_me_modifyphysicaldamage_prefix1",
         "$mod_epicloot_me_modifyphysicaldamage_prefix2",
@@ -110,6 +119,7 @@
       "DisplayText" : "$mod_epicloot_me_modifyelementaldamage_display",
       "Description" : "$mod_epicloot_me_modifyelementaldamage_desc",
       "Requirements" : {
+        "NoRoll": true,
         "ExclusiveEffectTypes" : [
           "AddFireDamage",
           "AddFrostDamage",
@@ -124,15 +134,20 @@
         "ExcludedSkillTypes": [
           "Pickaxes"
         ],
-        "ItemHasElementalDamage" : true
+        "ItemHasElementalDamage" : true,
+        "AllowedRarities": [
+          "Rare",
+          "Epic",
+          "Legendary"
+        ]
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 5, "MaxValue" : 15, "Increment" : 1 },
+        //"Magic" : { "MinValue" : 5, "MaxValue" : 15, "Increment" : 1 },
         "Rare" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 1 },
         "Epic" : { "MinValue" : 25, "MaxValue" : 35, "Increment" : 1 },
         "Legendary" : { "MinValue" : 35, "MaxValue" : 50, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 5,
       "Prefixes": [
         "$mod_epicloot_me_modifyelementaldamage_prefix1",
         "$mod_epicloot_me_modifyelementaldamage_prefix2",
@@ -327,9 +342,9 @@
         "AllowedItemTypes" : [
           "Helmet",
           "Chest",
-          "Legs"
-        ],
-        "ItemHasArmor" : true
+          "Legs",
+          "Shoulders"
+        ]
       },
       "ValuesPerRarity" : {
         "Magic" : { "MinValue" : 5, "MaxValue" : 15, "Increment" : 1 },
@@ -452,6 +467,34 @@
       ],
       "Suffixes": [
         "$mod_epicloot_me_modifyhealthregen_suffix1"
+      ]
+    },
+    {
+      "Type" : "AddHealthRegen",
+      "DisplayText" : "$mod_epicloot_me_addhealthregen_display",
+      "Description" : "$mod_epicloot_me_addhealthregen_desc",
+      "Requirements" : {
+        "AllowedItemTypes" : [
+          "Helmet",
+          "Chest",
+          "Legs",
+          "Shoulder",
+          "Utility",
+          "Shield"
+        ]
+      },
+      "ValuesPerRarity" : {
+        "Magic" : { "MinValue" : 0.5, "MaxValue" : 1.5, "Increment" : 0.5 },
+        "Rare" : { "MinValue" : 1, "MaxValue" : 3, "Increment" : 0.5 },
+        "Epic" : { "MinValue" : 2, "MaxValue" : 4.5, "Increment" : 0.5 },
+        "Legendary" : { "MinValue" : 3, "MaxValue" : 6, "Increment" : 0.5 }
+      },
+      "SelectionWeight" : 1,
+      "Prefixes": [
+        "$mod_epicloot_me_addhealthregen_prefix1"
+      ],
+      "Suffixes": [
+        "$mod_epicloot_me_addhealthregen_suffix1"
       ]
     },
     {
@@ -715,6 +758,7 @@
       "DisplayText" : "$mod_epicloot_me_addpoisondamage_display",
       "Description" : "$mod_epicloot_me_addpoisondamage_desc",
       "Requirements" : {
+        "NoRoll": true,
         "ExclusiveEffectTypes" : [
           "AddBluntDamage",
           "AddSlashingDamage",
@@ -753,6 +797,7 @@
       "DisplayText" : "$mod_epicloot_me_addspiritdamage_display",
       "Description" : "$mod_epicloot_me_addspiritdamage_desc",
       "Requirements" : {
+        "NoRoll": true,
         "ExclusiveEffectTypes" : [
           "AddBluntDamage",
           "AddSlashingDamage",
@@ -1521,7 +1566,7 @@
         "Magic" : { "MinValue" : 25, "MaxValue" : 50, "Increment" : 5 },
         "Rare" : { "MinValue" : 50, "MaxValue" : 75, "Increment" : 5 },
         "Epic" : { "MinValue" : 75, "MaxValue" : 100, "Increment" : 5 },
-        "Legendary" : { "MinValue" : 100, "MaxValue" : 200, "Increment" : 10 }
+        "Legendary" : { "MinValue" : 100, "MaxValue" : 150, "Increment" : 10 }
       },
       "SelectionWeight" : 1000,
       "Prefixes": [
@@ -2662,7 +2707,6 @@
         "AllowedItemTypes" : [
           "Shield"
         ]
-        //"ItemHasNoParryPower" : true
       },
       "SelectionWeight" : 1,
       "Prefixes": [
@@ -2755,7 +2799,6 @@
       ]
     },
     {
-
       "Type" : "Slow",
       "DisplayText" : "$mod_epicloot_me_slow_display",
       "Description" : "$mod_epicloot_me_slow_desc",
@@ -2805,6 +2848,24 @@
         "NoRoll" :  true 
       },
       "Ability" : "Undying"
+    },
+    {
+      "Type" : "FrostDamageAOE",
+      "DisplayText" : "$mod_epicloot_set_me_frostdamageaoe_display",
+      "Requirements" : {
+        "NoRoll": true
+      },
+      "ValuesPerRarity" : {
+        "Legendary" : { "MinValue" : 50, "MaxValue" : 50, "Increment" : 1 }
+      }
+    },
+    {
+      "Type" : "Berserker",
+      "DisplayText" : "$mod_epicloot_set_me_berserker",
+      "Requirements" : {
+        "NoRoll" :  true 
+      },
+      "Ability" : "Berserker"
     }
   ]
 }

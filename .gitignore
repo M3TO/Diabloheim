@@ -3,3 +3,9 @@ valheim_Data/
 BepinEx/config/PrefabExports
 BepinEx/plugins/*.txt
 BepinEx/cache/
+BepInEx/LogOutput.log
+valheim.exe
+start_game_bepinex.sh
+start_server_bepinex.sh
+UnityCrashHandler64.exe
+UnityPlayer.dll
