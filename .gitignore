@@ -19,3 +19,4 @@ BepInEx/plugins/MMHOOK/MMHOOK_assembly_steamworks.dll
 BepInEx/plugins/MMHOOK/MMHOOK_assembly_sunshafts.dll
 BepInEx/plugins/MMHOOK/MMHOOK_assembly_utils.dll
 BepInEx/plugins/MMHOOK/MMHOOK_assembly_valheim.dll
+BepInEx/config/com.Skrip.SkToolbox.cfg
