@@ -1,15 +1,8 @@
 groups:
-  Meadows:
-    - Deer
-    - Neck
-    - Boar
-    - Seagal
-    - Fish1
-    - Fish2
-    - Fish3
-    - Greydwarf_Elite
-    - Greydwarf_Shaman
-    - Skeleton
-    - Greydwarf
-    - RRRM_BrownWolf
-    - RRRN_Skogarmaor
+  Mountains:
+    - Wolf
+    - StoneGolem
+    - Hatchling
+    - Fenring
+    - RRRN_SkogarmaorSorceror
+    - RRRM_FrozenBones

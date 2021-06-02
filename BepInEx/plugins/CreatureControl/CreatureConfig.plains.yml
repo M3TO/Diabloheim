@@ -6,7 +6,6 @@ groups:
     - Lox
     - Deathsquito
     - Skeleton
-    - 
 
     Lox:
       health per star: 0.05

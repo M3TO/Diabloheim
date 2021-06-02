@@ -1,19 +1,20 @@
 groups:
   BlackForest:
-    - Deer
-    - Seagal
-    - Fish1
-    - Fish2
-    - Fish3
     - Greydwarf_Elite
     - Greydwarf_Shaman
     - Skeleton
     - Greydwarf
     - Troll
-    - RRRM_BrownWolf    
     - RRRN_SkogarmaorRaider
-    - RRRM_GreydwarfMage
+    - RRRM_GreydwarfWarlock
     - RRR_GDThornweaver
-    - RRR_GhostVengeful
     - RRRM_TrollTosser
-    - RRRM_GredydwarfAcolyte
+
+BlackForest:
+  stars:
+    0: [ 10, 5, 1 ]
+    1: [ 10, 5, 1 ]
+    2: [ 20, 7, 3, 1, 0.5 ]
+    3: [ 25, 10, 5, 3, 1, 0.5, 0.25 ]
+    4: [ 35, 20, 10, 8, 5, 3, 2, 1, 0.5, 0.25 ]
+    5: [ 15, 25, 20, 15, 10, 5, 3, 2, 1, 0.5 ]

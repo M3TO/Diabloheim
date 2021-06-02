@@ -8,9 +8,9 @@
          "fZ" : 0.9
       },
       "cTintColor" : {
-         "fRed" : 0.4,
-         "fGreen" : 0.3,
-         "fBlue" : 0.2
+         "fRed" : 0.5,
+         "fGreen" : 0.34,
+         "fBlue" : 0.18
 		 },
       "cTintItems" : null,
       "cBodyFlames" : null
@@ -25,7 +25,7 @@
       "bToleratesWater" : true,
       "bToleratesFire" : false,
       "bToleratesSmoke" : false,
-      "fHealth" : 25,
+      "fHealth" : 20,
       "dDamageTaken" : {
          "m_blunt" : "Normal",
          "m_slash" : "Normal",
@@ -43,8 +43,8 @@
       "dtAttackDamageOverride" : {
          "fDamage" : 0,
          "fBlunt" : 0,
-         "fSlash" : 7,
-         "fPierce" : 7,
+         "fSlash" : 6,
+         "fPierce" : 6,
          "fChop" : 0,
          "fPickaxe" : 0,
          "fFire" : 0,

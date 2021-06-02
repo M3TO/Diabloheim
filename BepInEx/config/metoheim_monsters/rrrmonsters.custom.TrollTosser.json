@@ -54,7 +54,7 @@
       "sAttackProjectileOverride" : null,
       "aDefaultItems" : [
          "RRR_TrollTosser_throw@@@15",
-         "RRR_TrollTosser_slam"
+         "RRR_TrollTosser_slam@@@5"
       ],
       "aRandomWeapon" : [
          
